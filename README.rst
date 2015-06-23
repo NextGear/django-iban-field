@@ -42,6 +42,6 @@ Example
 You can find a running example of this field in this `demo django application`_
 
 
-.. _`demo django application`: http://www.python.org/
+.. _`demo django application`: https://github.com/Chedi/test_app
 .. _`tom's cafe`: http://toms-cafe.de/iban/iban.py
 .. _`django-localflavor`: http://django-localflavor.readthedocs.org/en/latest/
