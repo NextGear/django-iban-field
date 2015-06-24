@@ -76,7 +76,7 @@ class IBANSpecification(object):
     @staticmethod
     def checksum(value):
         value = clean_iban(value)
-        value = value[:2] + '00' + value [4:]
+        value = value[4:] + value[:2] + '00'
         value_digits = ''
         for x in value:
             if '0' <= x <= '9':

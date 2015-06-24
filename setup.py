@@ -8,7 +8,7 @@ setup(
     name                 = 'django-iban-field',
     author               = 'Chedi Toueiti',
     license              = 'GNU General Public License v3 (GPLv3)',
-    version              = '0.7',
+    version              = '0.8',
     packages             = find_packages(),
     keywords             = 'django iban field',
     platforms            = ['any'],
