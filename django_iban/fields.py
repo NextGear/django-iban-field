@@ -6,6 +6,7 @@ from django_iban.forms         import IBANFormField
 from django_iban.validators    import IBANValidator
 from django_iban.specification import IBAN_MAX_LENGTH
 
+
 class IBANField(CharField):
     description = _('International Bank Account Number')
 

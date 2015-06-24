@@ -14,8 +14,6 @@ class IBANFormField(CharField):
 
         self.grouping           = grouping
         self.default_validators = [IBANValidator()]
-
-        del kwargs['grouping']
         CharField.__init__(self, *args, **kwargs)
 
     def to_python(self, value):
