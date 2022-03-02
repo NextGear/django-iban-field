@@ -1,7 +1,7 @@
 from random                   import choice
 from string                   import digits
 from string                   import ascii_uppercase
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from django_iban.specification import IBANSpecification
 from django_iban.specification import IBAN_SPECIFICATION_CONFIG
