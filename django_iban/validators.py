@@ -1,6 +1,6 @@
 from re                       import match
 from django.core.exceptions   import ValidationError
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from django_iban.utils         import clean_iban
 from django_iban.specification import IBAN_SPECIFICATION_CONFIG
