@@ -1,5 +1,5 @@
 from django.db.models         import CharField
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from django_iban.utils         import clean_iban
 from django_iban.forms         import IBANFormField
